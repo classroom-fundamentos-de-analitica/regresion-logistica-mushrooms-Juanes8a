@@ -99,7 +99,7 @@ def pregunta_02():
     (X_train, X_test, y_train, y_test,) = train_test_split(
         X,
         y,
-        test_size=0.0615,
+        test_size=50/X.shape[0],
         random_state=123,
     )
 
